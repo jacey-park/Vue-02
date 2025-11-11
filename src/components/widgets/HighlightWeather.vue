@@ -134,10 +134,10 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { toRefs } from "vue";
 
 interface HighlightData {
+    minTemp: number;
+    maxTemp: nubmer;
     sunrise: string;
     sunset: string;
-    moonrise: string;
-    moonset: string;
     humidity: number;
     pressure: number;
     visibility: number;
